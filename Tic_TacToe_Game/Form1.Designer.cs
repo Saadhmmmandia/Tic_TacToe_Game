@@ -44,6 +44,7 @@
             this.Lb_ShowTurn = new System.Windows.Forms.Label();
             this.Lb_ShowWinner = new System.Windows.Forms.Label();
             this.btn_RestartGame = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -231,12 +232,23 @@
             this.btn_RestartGame.UseVisualStyleBackColor = false;
             this.btn_RestartGame.Click += new System.EventHandler(this.btn_RestartGame_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label1.Location = new System.Drawing.Point(54, 651);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.TabIndex = 15;
+            this.label1.Text = "label1";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1407, 717);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btn_RestartGame);
             this.Controls.Add(this.Lb_ShowWinner);
             this.Controls.Add(this.Lb_ShowTurn);
@@ -286,6 +298,7 @@
         private System.Windows.Forms.Label Lb_ShowTurn;
         private System.Windows.Forms.Label Lb_ShowWinner;
         private System.Windows.Forms.Button btn_RestartGame;
+        private System.Windows.Forms.Label label1;
     }
 }
 
